@@ -17,7 +17,6 @@ def pyramid(n):
     for i in range(n):
         print(" " * (n - i - 1) + "* " * (i + 1))
 
-# Example usage
 print("Lower Triangular:")
 lower_triangular(5)
 
